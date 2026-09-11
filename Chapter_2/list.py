@@ -48,3 +48,27 @@ print(list1)  # [1, 2, 4, 5, 10]
 
 list1.sort(reverse=True)  # sorts the elements of the list in descending order
 print(list1)  # [10, 5, 4, 2, 1]
+
+
+
+# Practice Questions:-
+# WAP to ask the user to enter names of 3 favourite movies and store them into a list
+movies = []
+mov = input("Enter the name of your favourite movie: ")
+movies.append(mov)
+mov = input("Enter the name of your favourite movie: ")
+movies.append(mov)
+mov = input("Enter the name of your favourite movie: ")
+movies.append(mov)
+print("Your favourite movies are:", movies)
+
+
+# 2:-WAP to check if the a list conatain a palindrome of elements
+list = [1, 2, 3, 2, 1]
+print(list)
+list_copy = list.copy()
+list_copy.reverse()
+if list == list_copy:
+    print("The list contains a palindrome.")
+else:
+    print("The list does not contain a palindrome.")
