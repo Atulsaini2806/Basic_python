@@ -49,7 +49,7 @@ print(dict2.get("age"))
 
 
 # Nested Dictionary :- We can also create a dictionary inside a dictionary. This is called nested dictionary.
-
+#example 1
 student = {
     "name": "Rahul Kumar",
     "age": 22,
