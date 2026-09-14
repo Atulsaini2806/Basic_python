@@ -62,3 +62,7 @@ student = {
 print(student) 
 print(student["subjects"]) # return all subjects marks.
 print(student["subjects"]["physics"]) # return only physics marks 85
+
+
+# Dictionary are unordered data structure in Python. means there are no indexig like string, list and tuple.
+# We can not access the value of any key by using index. we can only access the value of any key by using key name.
