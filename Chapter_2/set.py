@@ -67,7 +67,6 @@ values = {9,"9.0"}
 print(values) # {9, '9.0'}
 
 # second method: we can store 9 and 9.0 as separate elements in a set by converting 9 into float.
-
 value = {
     ("int", 9),
     ("float", 9.0)
