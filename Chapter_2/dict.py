@@ -63,6 +63,21 @@ print(student)
 print(student["subjects"]) # return all subjects marks.
 print(student["subjects"]["physics"]) # return only physics marks 85
 
-
+# slice indexing:-
 # Dictionary are unordered data structure in Python. means there are no indexig like string, list and tuple.
 # We can not access the value of any key by using index. we can only access the value of any key by using key name.
+
+
+# practice question;-
+marks ={}
+x = int(input("Enter the number of physics:  "))
+marks.update({"physics": x})
+
+
+x = int(input("Enter the number of chemistry:  "))
+marks.update({"chemistry": x})
+
+x = int(input("Enter the number of maths:  "))
+marks.update({"maths": x})
+
+print(marks)
