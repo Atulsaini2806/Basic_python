@@ -73,7 +73,6 @@ marks ={}
 x = int(input("Enter the number of physics:  "))
 marks.update({"physics": x})
 
-
 x = int(input("Enter the number of chemistry:  "))
 marks.update({"chemistry": x})
 
