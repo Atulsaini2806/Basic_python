@@ -23,8 +23,8 @@ print(str2[-8:-3]) # acoll
 
 
 # check the number is even or odd using string
-num_str = int(input("Enter a number: "))
-rem = num_str % 2
+num = int(input("Enter a number: "))
+rem = num % 2
 if rem == 0:
     print("The number is even.")
 else:
