@@ -50,4 +50,15 @@ while i <= 5:
     if (i==3):
        break
     i += 1 
+
+
+# continue:-
+nums = (1,4,9,16,25,36,49,64,81,100)
+x = 36
+for el in nums:
+    if(el == x):
+        print("num found")
+        continue
+    else:
+        print("num does not exit")
     
