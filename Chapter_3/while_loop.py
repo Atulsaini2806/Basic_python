@@ -61,4 +61,15 @@ for el in nums:
         continue
     else:
         print("num does not exit")
+
+
+# WAP to find the factorial of first n numbers(using while):-
+n = 5
+fact = 1
+i = 1
+while i <= n:
+    fact *= i
+    i+=1
+
+print("Factorial : ", fact)
     
