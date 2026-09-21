@@ -1,1 +1,1 @@
-I am learnig python from apnacollage.
+I am learnig the basic concept of python.
